@@ -1,0 +1,100 @@
+/* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #eeeeec;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+        h1 {
+            color: #606060;
+            background-color: #9ac6f8;
+            border-bottom: 3px solid #d3dee5;
+            border-top: 3px solid #d3dee5;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #1976d2;
+            background-color: #d3dee5;
+            border-bottom: 5px solid #9ac6f8;
+            border-top: 5px solid #9ac6f8;
+            padding-bottom: 5px;
+            font-family: verdana, sans-serif;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 10px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #c9c9c9;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button2 {
+            background-color: #f16161;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            color: #1976d2;
+        }
+        button:hover {
+            background-color: #79b8ff;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        div {
+            margin-top: 20px;
+            font-size: 32px;
+            font-weight: 700;
+            color: #1976d2;
+            border-top: 1px solid #1976d2;
+            border-bottom: 1px solid #1976d2;
+        }
+        .warningText {
+            font-size: 12px;
+            color: #ff6e6e;
+        }
+        .pizza-image {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #79b8ff;
+            border-radius: 10px;
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+        }
